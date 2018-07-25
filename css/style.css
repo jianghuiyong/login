@@ -1,0 +1,156 @@
+/**公用部分**/
+
+body {
+	font-size: 14px;
+	color: #333;
+	font-family: "arial, helvetica, sans-serif";
+	background-color: #F1F1F1;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+.clear {
+	clear: both;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+
+/***login.html***/
+
+.sign-box {
+	background-color: #fff;
+	width: 300px;
+	padding: 50px;
+	border-radius: 5px;
+	margin: 100px auto 0px;
+	box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+.sign-inner {
+	color: #969696;
+}
+
+.sign-box h4.title {
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.sign-box a {
+	margin: 0px 10px;
+	color: #969696;
+}
+
+.sign-box h4 a.active {
+	padding: 10px;
+	font-weight: 700;
+	color: #ea6f5a;
+	font-weight: 700;
+	border-bottom: 2px solid #ea6f5a;
+}
+
+.sign-input {
+	position: relative;
+	background-color: #F8F8F8;
+	border: solid 1px #c8c8c8;
+	overflow:hidden;
+}
+
+.sign-input-no-line{
+	border-bottom: none;
+}
+
+.sign-input input {
+	height: 40px;
+	width: 100%;
+	border: none;
+	outline: none;
+	padding-left: 40px;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.sign-input i {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+
+.sign-box .remember {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.sign-box .remember input {
+	position: relative;
+	margin-right: 5px;
+}
+
+.sign-box input[type="submit"] {
+	width: 100%;
+	color: #fff;
+	height: 40px;
+	border: none;
+	font-size: 20px;
+	border-radius: 5px;
+	background-color: #498ad5;
+}
+
+.sign-box input.sign-up{
+	background-color: #00bb29;
+}
+
+.more-sign h5 {
+	text-align: center;
+	position: relative;
+}
+
+.more-sign h5:before,
+.more-sign h5:after {
+	display: block;
+	content: "";
+	width: 50px;
+	top: 6px;
+	position: absolute;
+	border-top: solid 1px;
+}
+
+.more-sign h5:before {
+	left: 50px;
+}
+
+.more-sign h5:after {
+	right: 50px;
+}
+
+.more-sign ul {
+	padding: 0px;
+	list-style: none;
+}
+
+.more-sign ul>li {
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+
+.more-sign a {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	font-size: 24px;
+	line-height: 50px;
+	background-color: red;
+	border-radius: 50%;
+	color: #fff;
+}
+
